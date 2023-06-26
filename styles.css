@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(0, 0, 0, 0.836);
+}
+.container{
+    margin-left: 40%;
+    margin-right: 42%;
+    margin-top: 10%;
+    padding: 15px 25px 25px;
+    padding-bottom: 20px;
+    background-color:#fff;    
+    border-radius: 12px;
+    width: 100%;
+    position: relative;
+    max-width: 300px;
+}
+header{
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.input_field{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: large;
+    text-align: center;
+    width: 100%;
+}
+.inputCaptcha{
+    font-size: 33px;
+    font-weight:900;
+    letter-spacing: 20px;
+    
+}
+.imgIcon{
+    width: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.refresh_button{
+    position:absolute;
+    top: 35%;
+    right: 18px;
+    transform: translateY(-50%);
+    background: #826afb;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+.refresh_button:active{
+    transform: translateY(-50%)scale(0.98);
+
+}
+.input_field input, 
+.button button{
+    height: 100%;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 10px ;
+    outline: none;
+    border-radius: 8px;
+    
+}
+.message.active{
+    display: block;
+}
+.button button{
+    background-color: #826afb;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    user-select: none;
+    
+}
+.button .button:active{
+    transform: scale(0.99);
+}
+.button.disabled{
+    opacity: 0.6;
+    pointer-events: none;
+}
